@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<!--$('#sk').click( function() {-->
+    <!--var search = document.getElementById("sk").value;-->
+    <!--console.log(search)-->
+
+    <!--&lt;!&ndash;console.log(keyword)&ndash;&gt;-->
+                <!--$.ajax({-->
+                    <!--url:'output',-->
+                    <!--dataType:'json',-->
+
+                    <!--data: {'search': search },-->
+                    <!--success:function(data){-->
+
+                        <!--console.log("in")-->
+                        <!--console.log(data)-->
+                        <!--console.log(data.length)-->
+
+                        <!--getStockDataPoint(data);-->
+<!--function getStockDataPoint(data) {-->
+<!--var dps = []; // dataPoints-->
+<!--var chart = new CanvasJS.Chart("chartContainer", {-->
+	<!--title :{-->
+		<!--text: "Dynamic Data"-->
+	<!--},-->
+	<!--axisY: {-->
+		<!--includeZero: false-->
+	<!--},-->
+	<!--data: [{-->
+		<!--type: "line",-->
+		<!--dataPoints: dps-->
+	<!--}]-->
+<!--});-->
+
+<!--var xVal = 0;-->
+<!--var yVal = 100;-->
+<!--var updateInterval = 1000;-->
+<!--var dataLength = 20; // number of dataPoints visible at any point-->
+
+<!--var updateChart = function (count) {-->
+
+	<!--count = count || 1;-->
+
+	<!--for (var j = 0; j < count; j++) {-->
+		<!--yVal = yVal +  Math.round(5 + Math.random() *(-5-5));-->
+		<!--dps.push({-->
+			<!--x: xVal,-->
+			<!--y: yVal-->
+		<!--});-->
+		<!--xVal++;-->
+	<!--}-->
+
+	<!--if (dps.length > dataLength) {-->
+		<!--dps.shift();-->
+	<!--}-->
+
+	<!--chart.render();-->
+<!--};-->
+
+<!--updateChart(dataLength);-->
+<!--setInterval(function(){updateChart()}, updateInterval);-->
+<!--}-->
+                    <!--}-->
+                <!--});-->
+            <!--})-->
+
+			<!--<script>-->
+    <!--$('#samsung2').click( function() {-->
+
+    <!--console.log(search)-->
+
+    <!--&lt;!&ndash;console.log(keyword)&ndash;&gt;-->
+                <!--$.ajax({-->
+                    <!--url:'output',-->
+                    <!--dataType:'json',-->
+
+                    <!--data: {'search': search },-->
+                    <!--success:function(data){-->
+
+                        <!--console.log("in")-->
+                        <!--console.log(data)-->
+                        <!--console.log(data.length)-->
+
+                        <!--getPredictDataPoint(data);-->
+<!--function getPredictDataPoint(data) {-->
+<!--var dps = []; // dataPoints-->
+<!--var chart = new CanvasJS.Chart("chartContainer2", {-->
+	<!--title :{-->
+		<!--text: "삼성전자 예측"-->
+	<!--},-->
+	<!--axisY: {-->
+		<!--includeZero: false-->
+	<!--},-->
+	<!--data: [{-->
+		<!--type: "line",-->
+		<!--dataPoints: dps-->
+	<!--}]-->
+<!--});-->
+
+<!--var xVal = 0;-->
+<!--var yVal = 100;-->
+<!--var updateInterval = 500;-->
+<!--var dataLength = 20; // number of dataPoints visible at any point-->
+
+<!--var updateChart = function (count) {-->
+
+	<!--count = count || 1;-->
+
+	<!--for (var j = 0; j < count; j++) {-->
+		<!--yVal = 1-->
+		<!--dps.push({-->
+			<!--x: xVal,-->
+			<!--y: yVal-->
+		<!--});-->
+		<!--xVal++;-->
+	<!--}-->
+
+	<!--if (dps.length > dataLength) {-->
+		<!--dps.shift();-->
+	<!--}-->
+
+	<!--chart.render();-->
+<!--};-->
+
+<!--updateChart(dataLength);-->
+<!--setInterval(function(){updateChart()}, updateInterval);-->
+
+<!--}-->
+
+
+
+                    <!--}-->
+                <!--});-->
+            <!--})-->
+<!--</script>-->
